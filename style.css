@@ -1,18 +1,87 @@
 h1{
     font-size: 50px;
 }
-.higlight{
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.orign-higlight{
     color: orange;
 }
+
+section{
+    height: 500px;
+    border: 2px solid red;
+}
+
 body{
+    margin: 0px;
     font-family: 'Maven Pro', sans-serif;
 }
 .half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
+   
     padding-left: 5%;
 }
 .half-width img{
     width: 50%;
+    margin-left: 0;
 }
+
+.top-banner{
+    background-image: url('img/top-banner.png');
+    background-repeat: no-repeat;
+}
+
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    /* background-image: linear-gradient(lightsalmon,tomato); */
+
+    padding: 10px 20px ;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+.dream{
+    background-image: url('img/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.single-exp{
+    box-shadow: 10px 10px 40px  grey;
+    border-radius: 10px;
+    height: 50%;
+    background-color: whitesmoke;
+   
+    
+}
+.experience{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    /* border-left: 7px solid; */
+    border-image:linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+#front-stack{
+    /* border-left: 7px solid; */
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+ 
+    
+  
+  
+}
+footer p{
+    text-align: center;
+}
+
