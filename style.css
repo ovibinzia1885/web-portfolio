@@ -1,0 +1,18 @@
+h1{
+    font-size: 50px;
+}
+.higlight{
+    color: orange;
+}
+body{
+    font-family: 'Maven Pro', sans-serif;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 50%;
+}
